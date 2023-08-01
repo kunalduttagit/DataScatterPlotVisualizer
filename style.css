@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600&display=swap');
+@import 'fonts/font.css';
+
+h1{
+    font-family: edhanmartine;
+    font-size: 50px;
+    color: #FF6666;
+}
+
+body{
+    background-color: #FFEADD;
+    margin: 2px;
+    font-family: poppins;
+}
+
+table, td{
+    border: 2px solid #FCAEAE;
+    padding: 5px 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+thead{
+    font-weight: bold;
+    color: #A6B1E1;
+    font-family: Montserrat;
+}
+
+#chartContainer {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
